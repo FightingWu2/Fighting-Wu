@@ -1,0 +1,31 @@
+<section class="w-full flex flex-col items-center justify-center min-h-[60vh] relative">
+  <div class="bg-dark rounded-2xl shadow-xl border border-accent/30 p-8 max-w-3xl w-full animate-fade-in relative">
+    <div class="flex items-center mb-6 w-full">
+      <button onclick="goBack()" class="back-btn mr-3" style="position:static;"><i class="fa fa-arrow-left"></i></button>
+      <h2 class="text-3xl font-bold text-accent text-center flex-1">Books & Notes</h2>
+    </div>
+    <div class="grid grid-cols-2 md:grid-cols-3 gap-6">
+      <div class="flex flex-col items-center bg-primary/10 rounded-xl p-4 shadow hover:scale-105 transition-transform cursor-pointer h-full" onclick="loadPage('pages/book-node.html')">
+        <img src="https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=200&q=80" alt="书籍1" class="w-24 h-32 object-cover rounded mb-2">
+        <div class="font-bold text-primary">《深入浅出Node.js》</div>
+        <div class="text-light/70 text-xs text-center mt-1">事件循环、模块机制、异步编程等笔记。</div>
+        <div class="flex-1"></div>
+        <div class="w-full flex justify-center mt-2"><span class="text-xs text-light/50">2024-02-20</span></div>
+      </div>
+      <div class="flex flex-col items-center bg-primary/10 rounded-xl p-4 shadow hover:scale-105 transition-transform cursor-pointer h-full" onclick="loadPage('pages/book-prince.html')">
+        <img src="https://images.unsplash.com/photo-1524985069026-dd778a71c7b4?auto=format&fit=crop&w=200&q=80" alt="书籍2" class="w-24 h-32 object-cover rounded mb-2">
+        <div class="font-bold text-primary">《小王子》</div>
+        <div class="text-light/70 text-xs text-center mt-1">人生哲理与童真感悟摘录。</div>
+        <div class="flex-1"></div>
+        <div class="w-full flex justify-center mt-2"><span class="text-xs text-light/50">2024-03-05</span></div>
+      </div>
+      <div class="flex flex-col items-center bg-primary/10 rounded-xl p-4 shadow hover:scale-105 transition-transform cursor-pointer h-full" onclick="loadPage('pages/book-sapiens.html')">
+        <img src="https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=200&q=80" alt="书籍3" class="w-24 h-32 object-cover rounded mb-2">
+        <div class="font-bold text-primary">《人类简史》</div>
+        <div class="text-light/70 text-xs text-center mt-1">历史发展与人性思考笔记。</div>
+        <div class="flex-1"></div>
+        <div class="w-full flex justify-center mt-2"><span class="text-xs text-light/50">2024-04-18</span></div>
+      </div>
+    </div>
+  </div>
+</section>

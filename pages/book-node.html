@@ -1,0 +1,99 @@
+<div class="w-full min-h-screen flex items-center justify-center" style="background:transparent;">
+  <div class="notion-md note-box" style="max-width: 820px; width: 100%; position:relative;">
+    <button onclick="goBack()" class="back-btn" style="position:absolute;left:1.5rem;top:1.5rem;z-index:10;"><i class="fa fa-arrow-left"></i></button>
+    <h1>《深入浅出Node.js》读书笔记</h1>
+    <hr>
+    <blockquote>🟢 <b>Node.js 适合 I/O 密集型应用，事件驱动高并发。</b></blockquote>
+    <hr>
+    <h2>📖 主要内容</h2>
+    <ul>
+      <li>事件循环机制</li>
+      <li>模块系统</li>
+      <li>异步编程</li>
+      <li>性能优化</li>
+    </ul>
+    <h2>🔄 事件循环</h2>
+    <p>Node.js 采用单线程事件驱动模型，通过事件循环实现高并发。</p>
+    <h2>📦 模块机制</h2>
+    <ul>
+      <li>CommonJS 规范</li>
+      <li>require、exports、module.exports</li>
+    </ul>
+    <h2>⚡ 异步编程</h2>
+    <ul>
+      <li>回调函数</li>
+      <li>Promise/async/await</li>
+    </ul>
+    <hr>
+    <h2>🚀 性能优化建议</h2>
+    <ul>
+      <li>合理拆分模块</li>
+      <li>善用缓存</li>
+      <li>避免阻塞</li>
+    </ul>
+    <hr>
+    <blockquote>“Node.js 让 JavaScript 走向后端世界。”</blockquote>
+  </div>
+</div>
+<style>
+.w-full.min-h-screen.flex.items-center.justify-center {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  background: transparent;
+}
+.notion-md.note-box {
+  background: #fff;
+  color: #222;
+  border-radius: 16px;
+  box-shadow: 0 2px 16px 0 rgba(0,0,0,0.06);
+  border: 1.5px solid #e5e7eb;
+  padding: 2.5rem 2rem 2rem 2rem;
+  margin-bottom: 3rem;
+  margin-top: 1.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+.notion-md.note-box h1 {
+  display: block;
+  width: 100%;
+  font-size: 2.7rem;
+  text-align: center;
+  margin-bottom: 1.4em;
+  margin-top: 0.2em;
+  color: #1e293b;
+  font-weight: 800;
+  line-height: 1.2;
+}
+.notion-md.note-box h2, .notion-md.note-box h3 {
+  color: #1e293b;
+}
+.notion-md.note-box a {
+  color: #2563eb;
+}
+.notion-md.note-box blockquote {
+  background: #f7f6f3;
+  border-left: 4px solid #eab308;
+  color: #555;
+  padding: 0.7em 1em;
+  margin: 1.2em 0;
+  border-radius: 8px;
+}
+.notion-md.note-box code, .notion-md.note-box pre {
+  background: #f3f3f3;
+  color: #222;
+}
+.notion-md.note-box pre {
+  padding: 1em;
+  margin: 1.2em 0;
+  overflow-x: auto;
+}
+.notion-md.note-box hr {
+  border: none;
+  border-top: 1.5px solid #ececec;
+  margin: 2em 0;
+}
+</style>
